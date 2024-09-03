@@ -21,6 +21,7 @@ require('lazy').setup({
     require('Lazy.telescope'), -- DONE
     require('Lazy.oil'), -- DONE
     require('Lazy.nvimtree'),
+    require('Lazy.vimwiki'),
 
     -- zero-lsp config
     require('Lazy.lsp-zero'), -- DONE

@@ -23,7 +23,7 @@ return {
                 noir_6 = '#737373',
                 noir_7 = '#535353',
                 noir_8 = '#323232',
-                noir_9 = '#1F2434',
+                noir_9 = '#242424',
                 diagnostic_error = '#ff0038',
                 diagnostic_warning = '#ff7700',
                 diagnostic_info = '#47eae0',
@@ -51,7 +51,7 @@ return {
         Group.new('Visual', nil, colors.noir_8)
         Group.new('SignColumn', nil, colors.background)
         Group.new('LineNr', colors.noir_8, colors.background)
-        Group.new("EndOfBuffer", colors.noir_8, nil)
+        Group.new('EndOfBuffer', colors.noir_8, nil)
 
         Group.new('Comment', colors.noir_6)
         Group.new('Constant', colors.primary)
@@ -164,7 +164,7 @@ return {
         Group.new('@text.underline', colors.noir_2)
         Group.new('@text.uri', colors.noir_6)
         Group.new('@type', colors.noir_0)
-        Group.new("@identifier", colors.noir_0)
+        Group.new('@identifier', colors.noir_0)
         Group.new('@type.builtin', colors.noir_0)
         Group.new('@type.definition', colors.noir_0)
         Group.new('@variable', colors.noir_0)
@@ -175,5 +175,13 @@ return {
 
         Group.new('@type.php', colors.noir_0)
         Group.new('@variable.php', colors.noir_0)
+
+        Group.new('NvimTreeRootFolder', colors.noir_6)
+        Group.new('NvimTreeFolderIcon', colors.primary)
+        Group.new('NvimTreeIndentMarker', colors.noir_6)
+        Group.new('NvimTreeExecFile', colors.noir_6)
+        Group.new('NvimTreeSpecialFile', colors.noir_2, nil)
+        Group.new('NvimTreeGitIgnored', colors.noir_7, nil)
+        Group.new('NvimTreeGitFileIgnoredHL', colors.noir_7, nil)
     end
 }
